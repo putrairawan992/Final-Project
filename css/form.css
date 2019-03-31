@@ -1,0 +1,31 @@
+.biodataProfil h2 {
+    margin-bottom: 10px;
+    text-align: center;
+}
+
+.biodataProfil .fa-facebook {
+    font-size: 55px;
+    text-align: center;
+    color: blue;
+}
+
+.biodataProfil .fa-linkedin {
+    font-size: 55px;
+    text-align: center;
+}
+
+.biodataProfil .fa-twitter-square {
+    font-size: 55px;
+    text-align: center;
+}
+
+.mediaSocial {
+    margin-top: 55px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+.mediaSocial a {
+    margin-left: 20px;
+}

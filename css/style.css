@@ -1,0 +1,77 @@
+.jumbotron {
+    background-image: url("../assets/banner.jpg");
+    background-position: center center;
+    background-size: cover;
+    text-align: center;
+    margin-bottom: 0px !important;
+}
+
+.text_content {
+    font-size: 54px;
+    color: white !important;
+}
+
+.text_content_paragraph {
+    font-size: 16px;
+    color: white;
+}
+
+.content {
+    background-image: url("../assets//5430.png");
+    background-size: cover;
+}
+
+.content h3 {
+    text-align: center;
+    font-size: 39px;
+    color: #24565c;
+}
+
+
+.device {
+    height: 91vh;
+    width: 359px;
+    background: url("../assets/phone.png");
+    background-repeat: no-repeat;
+}
+
+.device .device-content {
+    position: absolute;
+    top: 63px;
+    left: 39px;
+    width: 232px;
+}
+
+.device-content img {
+    height: 410px !important;
+}
+
+.card {
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+    max-width: 300px;
+    margin: auto;
+    text-align: center;
+    font-family: arial;
+}
+
+
+.price {
+    color: grey;
+    font-size: 22px;
+}
+
+.card button {
+    border: none;
+    outline: 0;
+    padding: 12px;
+    color: white;
+    background-color: #000;
+    text-align: center;
+    cursor: pointer;
+    width: 100%;
+    font-size: 18px;
+}
+
+.card button:hover {
+    opacity: 0.7;
+}
