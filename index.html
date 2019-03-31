@@ -87,15 +87,68 @@
                 <div class="col-md-4">
                     <div class="card">
                         <img src="./assets/devc.png" alt=" Denim Jeans" style="width:100%">
-                        <h4>Excersize 1</h4>
-                        <p>Aplikasi web ini adalah sebuah page yang berfungsi sebagai kalkulator.</p>
-                        <p><button>Add to Cart</button></p>
+                        <h4>Excersize 3</h4>
+                        <p>Membuat Form Search Filter.</p>
+                        <p><a href="./form-search-v1.html" target="_blank"><button>Link</button> </a></p>
                     </div>
+                </div>
+
+
+                <div class="col-md-2 col-md-offset-5">
+                    <!-- Trigger the modal with a button -->
+                    <button type="button" class="btn btn-info btn-lg" data-toggle="modal" data-target="#myModal">
+                        FormSpree</button>
+
+                    <!-- Modal -->
+                    <div class="modal fade" id="myModal" role="dialog">
+                        <div class="modal-dialog">
+
+                            <!-- Modal content-->
+                            <div class="modal-content">
+                                <div class="modal-header">
+                                    <button type="button" class="close" data-dismiss="modal">&times;</button>
+                                    <h4 class="modal-title">Silahkan isi Formulir berikut</h4>
+                                </div>
+                                <div class="modal-body">
+                                    <form action="https://formspree.io/putrairawan992@yahoo.com" method="POST">
+                                        <div class="form-group">
+                                            <label for="Fullname">Nama Lengkap</label>
+                                            <input type="text" name="Fullname" class="form-control" id="Fullname"
+                                                placeholder="Fullname" required>
+                                        </div>
+                                        <div class="form-group">
+                                            <label for="Email">Email </label>
+                                            <input type="email" name="Email" class="form-control" id="Email"
+                                                placeholder="Email" required>
+                                        </div>
+                                        <div class="form-group">
+                                            <label for="Date">Birth</label>
+                                            <input type="date" name="Date" class="form-control" id="Date"
+                                                placeholder="Use Date" required>
+                                        </div>
+                                        <div class="form-group">
+                                            <label for="Message">Message</label>
+                                            <textarea type="text" name="Message" rows="5" class="form-control"
+                                                id="Message" placeholder="Message" required></textarea>
+                                        </div>
+                                        <input type="submit" class="btn btn-success" value="Send">
+                                    </form>
+                                </div>
+                                <div class="modal-footer">
+                                    <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+                                </div>
+                            </div>
+
+
+
+                        </div>
+                    </div>
+
                 </div>
             </div>
         </div>
     </div>
-
+    </div>
 </body>
 
 
